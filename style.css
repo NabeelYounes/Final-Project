@@ -79,6 +79,14 @@ footer.Footer {
     width: 540px;
     color: black;
 }
+.PersonalPhoto img {
+    height: 240px;
+    width:220px;
+    border-radius: 50%;
+    position: absolute;
+    top: 235px;
+    right: 225px;
+}
 .Aboutme {
     position: absolute;
     top: 15%;
@@ -123,68 +131,3 @@ footer.Footer {
     from {right:350px;}
     to {right: 20px;}
 }
-@media screen and (max-width: 480px) {
-nav ul {
-    display: table-row;
-    top: 0;
-}
-h1 {
-    top: 50px;
-    width: 50px;
-    right: 0;
-    font-size: 45px;
-}
-.Aboutme {
-    top: 45%;
-    left: 0;
-    font-size: 25px;
-}
-.ProfessionalExperience {
-    top: 75%;
-    left: 0;
-    font-size: 25px;
-}
-.EducationalBackground {
-    top: 105%;
-    left: 0;
-    font-size: 25px;
-}
-.contactdetails {
-    top: 50%;
-}
-}
-@media screen and (max-width: 768px) {
-    nav ul {
-        display: table-row;
-        top: 0;
-        right:0;
-    }
-    h1 {
-        top: 50px;
-        width: 50px;
-        left: 0;
-        font-size: 45px;
-    }
-    .Aboutme {
-        top: 45%;
-        left: 0;
-        font-size: 25px;
-    }
-    .ProfessionalExperience {
-        top: 75%;
-        left: 0;
-        font-size: 25px;
-    }
-    .EducationalBackground {
-        top: 105%;
-        left: 0;
-        font-size: 25px;
-    }
-    .contactdetails {
-        top: 50%;
-        left: 0;
-        width: 480px;
-    }
-}
-@media screen and (max-width: 1025px) {
-    }
