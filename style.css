@@ -9,32 +9,44 @@ body.Contact {
     font-family: 'Playball', cursive;
 }
 body.About {
-    background-image: url(./About_background_1600x720\ \(1\).jpg);
+    background-image: url(./About\ me.jpg);
     background-repeat: no-repeat;
     font-family: 'Playball', cursive;
 }
 a {
     text-decoration: none;
-    color: #F6B190;
+    color:black;
+    font-weight: 900;
+}
+nav.About a {
+    color:black;
+    font-weight: 900;
+}
+nav.Contact a {
+    color:black;
+    font-weight: 900;
 }
 h1 {
     color: #94D600;
     font-size: 64px;
-    left: 30px;
+    left: 115px;
     position: absolute;
-    top: -40px;
+    top: -20px;
+    animation: h1 12s;
+    animation-fill-mode: forwards;
 }
 nav ul {
     display: inline-flex;
     position: absolute;
-    right: 50px;
+    right: 20px;
     top: -15px;
     list-style: none;
+    animation: nav 12s;
+    animation-fill-mode: forwards;
     
 }
 nav ul li {
     justify-content: space-between;
-    color: #F6B190;
     font-size: 32px;
 }
 nav img {
@@ -45,45 +57,134 @@ nav img {
     width: 50px;
     height: 50px;
 }
+footer.Footer {
+    position: absolute;
+    bottom: 70px;
+    width: 350px;
+    right: 20px;
+}
+.copyright {
+    position: absolute;
+    bottom: 0;
+    bottom: -20px;
+    left:15px;
+    font-size: 30px;
+}
 .contactdetails {
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 6%;
     font-size: 36px;
     padding: 15px;
-    width: 530px;
-    color: #d34433;
+    width: 540px;
+    color: black;
 }
 .Aboutme {
     position: absolute;
     top: 15%;
-    left: 6%;
+    left: 3%;
     font-size: 36px;
-    background-color: white;
-    background-color: #ffffff;
-    border: 1px solid black;
     padding: 15px;
-    width: 530px;
+    width: 410px;
+    color: black;
 }
-.EducationalBackground {
-    position: absolute;
-    top: 42%;
-    left: 50%;
-    font-size: 36px;
-    background-color: white;
-    background-color: #ffffff;
-    border: 1px solid black;
-    padding: 15px;
-    width: 330px;
+.Aboutme header {
+    color: blue;
 }
 .ProfessionalExperience {
     position: absolute;
-    top: 56%;
-    left: 11%;
+    top: 51%;
+    left: 30%;
     font-size: 36px;
-    background-color: white;
-    background-color: #ffffff;
-    border: 1px solid black;
     padding: 15px;
-    width: 385px;
+    width: 410px;
+    color: black;
 }
+.ProfessionalExperience header {
+    color: blue;
+}
+.EducationalBackground {
+    position: absolute;
+    top: 75%;
+    left: 60%;
+    font-size: 36px;
+    padding: 15px;
+    width: 410px;
+    color: black;
+}
+.EducationalBackground header {
+    color: blue;
+}
+@keyframes h1 {
+    from {left: 350px;}
+    to {left: 115px;}
+  }
+@keyframes nav {
+    from {right:350px;}
+    to {right: 20px;}
+}
+@media screen and (max-width: 480px) {
+nav ul {
+    display: table-row;
+    top: 0;
+}
+h1 {
+    top: 50px;
+    width: 50px;
+    right: 0;
+    font-size: 45px;
+}
+.Aboutme {
+    top: 45%;
+    left: 0;
+    font-size: 25px;
+}
+.ProfessionalExperience {
+    top: 75%;
+    left: 0;
+    font-size: 25px;
+}
+.EducationalBackground {
+    top: 105%;
+    left: 0;
+    font-size: 25px;
+}
+.contactdetails {
+    top: 50%;
+}
+}
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: table-row;
+        top: 0;
+        right:0;
+    }
+    h1 {
+        top: 50px;
+        width: 50px;
+        left: 0;
+        font-size: 45px;
+    }
+    .Aboutme {
+        top: 45%;
+        left: 0;
+        font-size: 25px;
+    }
+    .ProfessionalExperience {
+        top: 75%;
+        left: 0;
+        font-size: 25px;
+    }
+    .EducationalBackground {
+        top: 105%;
+        left: 0;
+        font-size: 25px;
+    }
+    .contactdetails {
+        top: 50%;
+        left: 0;
+        width: 480px;
+    }
+}
+@media screen and (max-width: 1025px) {
+    }
