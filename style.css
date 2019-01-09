@@ -59,14 +59,14 @@ nav img {
 }
 footer.Footer {
     position: absolute;
-    bottom: 70px;
+    bottom: 85px;
     width: 350px;
     right: 20px;
 }
 .copyright {
     position: absolute;
     bottom: 0;
-    bottom: -20px;
+    bottom: 0;
     left:15px;
     font-size: 30px;
 }
@@ -131,3 +131,30 @@ footer.Footer {
     from {right:350px;}
     to {right: 20px;}
 }
+@media only screen and (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+    }
+    header h1 {
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+   .PersonalPhoto img {
+       top: 200px;
+       right: 0;
+       height: 150px;
+   } 
+   .Aboutme {
+    font-size: 24px;
+   }
+   .ProfessionalExperience {
+    font-size: 24px;
+   }
+   .EducationalBackground {
+    font-size: 24px;  
+   }
+   .copyright {
+       bottom: -120px;
+   }
+  }
