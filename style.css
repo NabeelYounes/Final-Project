@@ -59,14 +59,13 @@ nav img {
 }
 footer.Footer {
     position: absolute;
-    bottom: 85px;
+    bottom: 75px;
     width: 350px;
     right: 20px;
 }
 .copyright {
     position: absolute;
-    bottom: 0;
-    bottom: 0;
+    bottom: -15px;
     left:15px;
     font-size: 30px;
 }
@@ -81,11 +80,11 @@ footer.Footer {
 }
 .PersonalPhoto img {
     height: 240px;
-    width:220px;
+    width:280px;
     border-radius: 50%;
     position: absolute;
     top: 235px;
-    right: 225px;
+    right: 195px;
 }
 .Aboutme {
     position: absolute;
@@ -111,12 +110,11 @@ footer.Footer {
 .ProfessionalExperience header {
     color: blue;
 }
-.EducationalBackground {
+.EducationalBackground {    
     position: absolute;
     top: 75%;
     left: 60%;
     font-size: 36px;
-    padding: 15px;
     width: 410px;
     color: black;
 }
